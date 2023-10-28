@@ -3,7 +3,7 @@
 - YouTube kanalınıza attığınız videoları anında Discord'da duyurun!
 
 ## 🎊 Nasıl Kullanılır
-1. `npm i` ve `node main.js` komutlarıyla botu başlatın.
+1. `npm i` ve `node index.js` komutlarıyla botu başlatın.
 2. Botu sunucunuza ekleyin.
 
 ## 🧨Destek

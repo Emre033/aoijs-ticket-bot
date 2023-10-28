@@ -1,7 +1,7 @@
 
 const { AoiClient, LoadCommands } = require("aoi.js"); // Elleme
 const bot = new AoiClient({
-    token: process.env['token'], // " İçine Bot Tokenini Gir
+    token: "", // " İçine Bot Tokenini Gir
     prefix: "s.", // " İçine Prefixini Gir
     intents: ["Guilds", "GuildMessages", "MessageContent"], // İntentler
     events: ["onMessage", "onInteractionCreate","onChannelCreate"], // Eventler
@@ -32,6 +32,4 @@ Veritabanı Gecikmesi: $databasePing]
 // Değiskenler
 bot.variables ({
   ornek:"ornek",
-  kodsayi:"0",
-  xp:"0"
 })
